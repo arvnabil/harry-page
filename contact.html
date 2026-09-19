@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="web_standard" name="shell-type"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script src="/tailwind-config.js"></script>
+<style>
+    @layer base {
+      html, body { margin: 0; padding: 0; }
+      body { overscroll-behavior: none; }
+      main > :first-child { margin-top: 0 !important; }
+      main > :last-child { margin-bottom: 0 !important; }
+    }
+    ::-webkit-scrollbar { display: none; }
+    .mega-menu{opacity:0;visibility:hidden;transform:translateY(8px);transition:all 0.2s cubic-bezier(0.16,1,0.3,1);}
+    .group:hover .mega-menu{opacity:1;visibility:visible;transform:translateY(0);}
+</style>
+</head>
+<body class="bg-surface text-on-surface"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl border-b border-outline-variant/30 shadow-[0_1px_8px_rgba(4,30,45,0.04)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between"><div class="flex items-center gap-8"><a class="flex items-center gap-3.5 group" data-path="home" href="index.html"><div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center border border-outline-variant/40 group-hover:border-primary transition-colors"><span class="font-headline-sm text-headline-sm text-primary font-bold">HK</span></div><div class="flex flex-col"><span class="font-label-md text-label-md font-bold text-on-surface tracking-tight leading-none group-hover:text-primary transition-colors">Harry Kusumo</span><span class="font-caption text-caption text-on-surface-variant font-medium mt-1 leading-none">AV Technology Enthusiast &amp; Storyteller</span></div></a><nav class="hidden lg:flex items-center gap-7" data-active-classes="text-primary font-bold"><div class="relative group py-6"><a aria-current="page" class="transition-colors flex items-center gap-1.5 text-primary font-bold" data-path="aver" href="aver.html">AVer<span class="material-symbols-outlined text-[18px] text-on-surface-variant group-hover:rotate-180 transition-transform duration-200">expand_more</span></a><div class="mega-menu absolute left-0 top-full w-[640px] bg-surface-container-lowest rounded-xl border border-outline-variant/40 shadow-[0_16px_36px_-4px_rgba(4,30,45,0.08),0_4px_12px_-2px_rgba(4,30,45,0.03)] p-6"><div class="grid grid-cols-2 gap-3.5"><a class="p-3 rounded-lg bg-surface hover:bg-surface-container-low transition-colors flex flex-col group/item" data-path="aver-about" href="aver_solutions.html#about-aver"><div class="flex items-center gap-2 mb-1"><span class="font-label-technical text-label-technical text-primary uppercase">01 Corporate</span></div><span class="font-label-md text-label-md text-on-surface font-semibold group-hover/item:text-primary transition-colors">About AVer</span><span class="font-caption text-caption text-on-surface-variant mt-0.5">Profil perusahaan, inovasi AI optics &amp; ekosistem AVer</span></a><a class="p-3 rounded-lg bg-surface hover:bg-surface-container-low transition-colors flex flex-col group/item" data-path="aver-solutions" href="aver_solutions.html"><div class="flex items-center gap-2 mb-1"><span class="font-label-technical text-label-technical text-primary uppercase">02 Ecosystem</span></div><span class="font-label-md text-label-md text-on-surface font-semibold group-hover/item:text-primary transition-colors">Solutions</span><span class="font-caption text-caption text-on-surface-variant mt-0.5">Meeting Rooms, Pro AV Broadcasting, Education &amp; Medical</span></a><a class="p-3 rounded-lg bg-surface hover:bg-surface-container-low transition-colors flex flex-col group/item" data-path="aver-products-cat" href="products.html"><div class="flex items-center gap-2 mb-1"><span class="font-label-technical text-label-technical text-primary uppercase">03 Hardware</span></div><span class="font-label-md text-label-md text-on-surface font-semibold group-hover/item:text-primary transition-colors">Products</span><span class="font-caption text-caption text-on-surface-variant mt-0.5">Kamera PTZ 4K, Video Bars, Audio Tracking &amp; Visualizer</span></a><a class="p-3 rounded-lg bg-surface hover:bg-surface-container-low transition-colors flex flex-col group/item" data-path="aver-support" href="product_detail.html#support"><div class="flex items-center gap-2 mb-1"><span class="font-label-technical text-label-technical text-primary uppercase">04 Service</span></div><span class="font-label-md text-label-md text-on-surface font-semibold group-hover/item:text-primary transition-colors">Support</span><span class="font-caption text-caption text-on-surface-variant mt-0.5">Garansi resmi, firmware update, &amp; konsultasi unit demo</span></a><a class="p-3 rounded-lg bg-surface hover:bg-surface-container-low transition-colors flex flex-col group/item col-span-2" data-path="aver-media-room" href="insights.html"><div class="flex items-center justify-between"><div class="flex flex-col"><div class="flex items-center gap-2 mb-1"><span class="font-label-technical text-label-technical text-primary uppercase">05 Press &amp; News</span></div><span class="font-label-md text-label-md text-on-surface font-semibold group-hover/item:text-primary transition-colors">Media Room</span><span class="font-caption text-caption text-on-surface-variant mt-0.5">Berita teknologi AVer terbaru, artikel teknis, &amp; liputan event</span></div><span class="material-symbols-outlined text-primary group-hover/item:translate-x-1 transition-transform">newspaper</span></div></a></div><div class="mt-4 pt-3.5 border-t border-outline-variant/30 flex items-center justify-between"><span class="font-caption text-caption text-on-surface-variant">Hardware architecture &amp; technical deep dives</span><a class="font-label-md text-label-md text-primary hover:text-primary-container font-semibold inline-flex items-center gap-1 transition-colors" data-path="aver-products" href="products.html">Explore All AVer Products →</a></div></div></div><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="technology" href="index.html#core-tech">Technology</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="insights" href="insights.html">Insights</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="projects" href="index.html#projects">Projects</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="products" href="products.html">Products</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="about.html">About</a></nav></div><div class="flex items-center gap-3.5"><a class="hidden sm:inline-flex items-center justify-center px-4 h-10 rounded-lg bg-surface-container-lowest border border-outline-variant/50 text-on-surface font-label-md text-label-md hover:border-primary hover:text-primary transition-all" data-path="aver" href="aver.html">Explore AVer</a><a class="inline-flex items-center justify-center px-5 h-10 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary transition-all shadow-[0_2px_8px_rgba(0,123,182,0.25)]" data-path="contact" href="contact.html">Get in Touch</a><div class="pl-2 border-l border-outline-variant/40"><img alt="Harry Kusumo" class="w-8 h-8 rounded-full object-cover border border-outline-variant/40" src="https://lh3.googleusercontent.com/aida/AEtjO1XA45bv5XzcRYlKh4f3NwEnzLn3NL-LkGbEMjG3o4JHPbbViLpkNTInpbBv37gIlz91W4TR5yJ_ArKq5aCq5xJjlHzayBtC3W-loTkqQqT9aS0bySEcAdxiGWlxcnUJTPd-D2NHE4rjyMJHyLzrQILXVtyycSosJQGpWNPPAW-AyGnD8paHYUR6D0vZwDxF_x9xd7-lvMK-IcAvwJyRrQpNFDERzEkL5kZiYQmnfJ6upSDMOY4Q6tAnno1fCIr8nmfdvQL46Wxs"/></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- Breadcrumbs Strip -->
+<section class="w-full bg-surface-container-low py-space-md">
+<div class="max-w-7xl mx-auto px-gutter flex flex-wrap items-center justify-between gap-space-sm">
+<nav aria-label="Breadcrumb" class="flex items-center gap-space-xs font-caption text-caption text-on-surface-variant">
+<a class="hover:text-primary transition-colors" href="index.html">Beranda</a>
+<span class="material-symbols-outlined text-[14px] text-outline-variant">chevron_right</span>
+<span class="text-on-surface font-semibold">Kontak</span>
+</nav>
+</div>
+</section>
+<!-- Hero Section -->
+<section class="relative w-full bg-surface-container-lowest overflow-hidden pb-12 pt-4">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-7 flex flex-col items-start">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container-low mb-6 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-ping"></span>
+<span class="font-label-technical text-label-technical text-primary uppercase tracking-wider">Hubungi Kami</span>
+</div>
+<h1 class="font-display-hero text-headline-lg lg:text-display-hero text-on-surface tracking-tight font-extrabold max-w-2xl leading-none">
+            Mari Ngobrol <span class="text-primary">Teknologi.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-tertiary mt-6 max-w-xl leading-relaxed">
+            Punya pertanyaan seputar ekosistem AVer, akustik ruang enterprise, telemetri auto-framing, atau rencana deployment khusus? Yuk, mulai percakapan.
+          </p>
+<div class="mt-8 flex flex-wrap items-center gap-3">
+<div class="inline-flex items-center gap-2.5 px-4 py-2.5 rounded-lg bg-surface-container-low shadow-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">bolt</span>
+<span class="font-label-md text-label-md text-on-surface">Respons dalam 24–48 jam untuk pertanyaan teknis &amp; proyek</span>
+</div>
+<div class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-surface-bright text-tertiary shadow-sm">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span class="font-caption text-caption font-semibold">Wawasan Lapangan AV Independen</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-xl bg-surface-container-low">
+<img class="w-full h-80 object-cover" data-alt="High-end modern enterprise conference room bathed in warm morning daylight featuring ultra-wide panoramic dual displays, an AVer enterprise PTZ auto-tracking camera with dual lenses, custom acoustic blonde oak timber slat walls, and ergonomic executive leather armchairs around a long oak conference table." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA29ZLhDeGnySx6r-JlbvINyRW7Z6IuNIbUESWbCP96S2tQE37cvBuySz9MQjoLDTErSx5qU1Eh-Gn0p9TKuuzsjaSiug_0RKNOGyYPCR4Rm5sF4qHBvYETxhifyzvpI1bQA7B5MMWE7wxqajNSsJyaixOVxNi9hLejSuFjCcXdylXRC--EhLy_bF3TFfuCIVc96Lcj9uE32R4_EaH9UjGta2LbFJD0P6ENuO0lwWMDDxu_3Ngkf2wB"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-on-surface/20 to-transparent flex flex-col justify-end p-6">
+<span class="font-label-technical text-label-technical text-secondary-container uppercase tracking-wider">Acoustic &amp; Visual Testing Facility</span>
+<p class="font-headline-sm text-headline-sm text-surface-container-lowest font-bold mt-1">Benchmark Ruang Rapat Nyata</p>
+<div class="flex items-center gap-4 mt-2 font-caption text-caption text-surface-container-high">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">videocam</span> 4K Ultra-HD Auto Tracking</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">graphic_eq</span> Audio Beamforming</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Introduction & Premium Form Section -->
+<section class="w-full bg-surface py-16" id="form-container">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left Column: Context & Discussion Topics -->
+<div class="lg:col-span-5 flex flex-col gap-8">
+<div>
+<span class="font-label-technical text-label-technical text-primary uppercase tracking-wider">Keahlian &amp; Bidang Cakupan</span>
+<h2 class="font-headline-lg text-headline-md lg:text-headline-lg text-on-surface mt-2 tracking-tight">Ayo Terhubung</h2>
+<p class="font-body-md text-body-md text-tertiary mt-4 leading-relaxed">
+              Apakah kamu sedang menelusuri lini produk AVer, merancang ruang boardroom hybrid, mengevaluasi matriks streaming NDI, atau sekadar ingin ngobrol soal infrastruktur AV — Harry Kusumo selalu terbuka untuk diskusi teknis.
+            </p>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">forum</span>
+              Topik yang Bisa Kita Diskusikan
+            </span>
+<div class="flex flex-wrap gap-2.5">
+<div class="px-3.5 py-2 rounded-lg bg-surface-container-lowest shadow-sm flex items-center gap-2 hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary text-[18px]">camera</span>
+<span class="font-caption text-caption text-on-surface font-semibold">Teknologi AVer</span>
+</div>
+<div class="px-3.5 py-2 rounded-lg bg-surface-container-lowest shadow-sm flex items-center gap-2 hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary text-[18px]">meeting_room</span>
+<span class="font-caption text-caption text-on-surface font-semibold">Solusi Ruang Rapat</span>
+</div>
+<div class="px-3.5 py-2 rounded-lg bg-surface-container-lowest shadow-sm flex items-center gap-2 hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary text-[18px]">connect_without_contact</span>
+<span class="font-caption text-caption text-on-surface font-semibold">Kolaborasi Video (MTR / Zoom)</span>
+</div>
+<div class="px-3.5 py-2 rounded-lg bg-surface-container-lowest shadow-sm flex items-center gap-2 hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary text-[18px]">cast</span>
+<span class="font-caption text-caption text-on-surface font-semibold">AV Profesional &amp; NDI / Dante</span>
+</div>
+<div class="px-3.5 py-2 rounded-lg bg-surface-container-lowest shadow-sm flex items-center gap-2 hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary text-[18px]">psychology</span>
+<span class="font-caption text-caption text-on-surface font-semibold">Algoritma Pelacakan Kamera AI</span>
+</div>
+<div class="px-3.5 py-2 rounded-lg bg-surface-container-lowest shadow-sm flex items-center gap-2 hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary text-[18px]">devices</span>
+<span class="font-caption text-caption text-on-surface font-semibold">Perangkat Keras: CAM550, CAM570, VB342 Pro</span>
+</div>
+<div class="px-3.5 py-2 rounded-lg bg-surface-container-lowest shadow-sm flex items-center gap-2 hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary text-[18px]">architecture</span>
+<span class="font-caption text-caption text-on-surface font-semibold">Ulasan Arsitektur Teknis</span>
+</div>
+</div>
+</div>
+<!-- Unbiased Note Card -->
+<div class="p-6 rounded-2xl bg-surface-container-low shadow-sm flex flex-col gap-3 relative overflow-hidden">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[22px]">policy</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface">Perspektif AV Independen</span>
+<span class="font-caption text-caption text-tertiary">Rekayasa nyata tanpa bias komersial</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Setiap evaluasi perangkat keras dan pendapat arsitektur didasarkan pada uji coba lab langsung, benchmarking optik, dan kendala akustik nyata di berbagai lingkungan enterprise.
+            </p>
+</div>
+<!-- Quick Lab Teaser Card -->
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-md flex items-center gap-5">
+<img class="w-20 h-20 rounded-xl object-cover" data-alt="Close up shot of professional audio-video engineering test bench featuring an oscilloscope, Dante audio routing interface, and calibrated high precision optical lux meters in a bright modern lab setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoG6CpPCqic7-9KCMClSP74y05dV9j6yvcXg-rGtZjgdmUh3vwnxm0wO77e9W6NRN5HyQ9c8JcEqrU7kSweaJ4yOL0JLakaTJuDSEcxFbxsJgeWBOfjoNNL1c6CiyxNQ7OUA0gWsX1uaSeIB8h82jKIkeSjjgum0xqIPMRgL-r2pyFVpSSWf0VEZ9oR2wS6GoJ4TFzru_rmKDZXZ39O4-8Yo3VNeK_3kkbTArvJqzBV4SFceRjsjRW"/>
+<div class="flex flex-col">
+<span class="font-label-technical text-label-technical text-primary uppercase">Aktivitas Lab</span>
+<span class="font-label-md text-label-md text-on-surface font-bold">Rig Terbaru: Rangkaian Mikrofon Beamforming</span>
+<a class="font-caption text-caption text-primary hover:underline mt-1 font-semibold flex items-center gap-1" data-path="products" href="products.html">
+                Lihat data bench terbaru <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Right Column: Premium Contact Form -->
+<div class="lg:col-span-7">
+<div class="bg-surface-container-lowest rounded-2xl p-8 lg:p-10 shadow-xl relative">
+<div class="flex flex-col mb-8">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface tracking-tight font-bold">Kirim Pesan</h3>
+<span class="w-3 h-3 rounded-full bg-secondary-container animate-pulse" title="System Ready"></span>
+</div>
+<p class="font-body-sm text-body-sm text-tertiary mt-1.5">
+                Isi detail di bawah ini untuk membuka jalur komunikasi teknis langsung dengan Harry.
+              </p>
+</div>
+<form class="flex flex-col gap-6" id="contactForm" onsubmit="event.preventDefault(); document.getElementById('formSuccess').classList.remove('hidden'); this.reset();">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Name -->
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-1" for="fullName">
+                    Nama <span class="text-error">*</span>
+</label>
+<input class="w-full h-11 px-4 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm transition-all" id="fullName" name="fullName" placeholder="Nama lengkap kamu" required="" type="text"/>
+</div>
+<!-- Email -->
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-1" for="emailAddress">
+                    Email <span class="text-error">*</span>
+</label>
+<input class="w-full h-11 px-4 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm transition-all" id="emailAddress" name="emailAddress" placeholder="name@company.com" required="" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Company -->
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="companyName">
+                    Perusahaan / Organisasi
+                  </label>
+<input class="w-full h-11 px-4 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm transition-all" id="companyName" name="companyName" placeholder="Nama organisasi atau proyek kamu" type="text"/>
+</div>
+<!-- Interest Dropdown -->
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="interestTopic">
+                    Saya tertarik tentang
+                  </label>
+<div class="relative">
+<select class="w-full h-11 px-4 pr-10 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm appearance-none focus:outline-none focus:ring-2 focus:ring-primary shadow-sm transition-all cursor-pointer" id="interestTopic" name="interestTopic">
+<option value="aver-tech">Teknologi AVer</option>
+<option value="product-discussion">Diskusi Produk</option>
+<option value="meeting-room">Arsitektur Ruang Rapat</option>
+<option value="video-collaboration">Kolaborasi Video (MTR / Zoom)</option>
+<option value="pro-av">AV Profesional &amp; NDI</option>
+<option value="tech-consult">Konsultasi &amp; Diskusi Teknis</option>
+<option value="project-eval">Deployment Proyek</option>
+<option value="other">Pertanyaan Lainnya</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3 pointer-events-none text-tertiary text-[20px]">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Message -->
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center justify-between" for="messageBody">
+<span>Pesan <span class="text-error">*</span></span>
+<span class="font-caption text-caption text-tertiary">Minimal 20 karakter</span>
+</label>
+<textarea class="w-full p-4 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm transition-all resize-y" id="messageBody" minlength="20" name="messageBody" placeholder="Ceritakan pertanyaan, skenario ruang, atau tantangan kolaborasi kamu kepada Harry..." required="" rows="5"></textarea>
+</div>
+<!-- Submit Button & Privacy -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">
+<button class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 h-12 rounded-lg bg-primary text-on-primary font-label-md text-label-md font-semibold hover:bg-primary-container shadow-md hover:shadow-lg transition-all duration-200 cursor-pointer" type="submit">
+<span>Kirim Pesan</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<div class="flex items-center gap-2 text-tertiary">
+<span class="material-symbols-outlined text-[18px] text-primary">lock</span>
+<span class="font-caption text-caption">Data kamu hanya digunakan untuk merespons pertanyaan teknis yang diajukan.</span>
+</div>
+</div>
+<!-- Form Success Feedback Alert -->
+<div class="hidden p-4 rounded-lg bg-surface-container text-on-surface font-body-sm text-body-sm flex items-center gap-3" id="formSuccess">
+<span class="material-symbols-outlined text-primary text-[22px]">check_circle</span>
+<div>
+<strong class="font-semibold text-primary">Terima kasih!</strong> Pesan kamu telah terkirim ke meja kerja Harry. Tunggu balasan dalam 24–48 jam.
+                </div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Information Cards (CMS-Configurable Cards) -->
+<section class="w-full bg-surface-container-lowest py-16">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<span class="font-label-technical text-label-technical text-primary uppercase tracking-wider">Jalur Kontak Langsung</span>
+<h2 class="font-headline-lg text-headline-md lg:text-headline-lg text-on-surface mt-2 font-bold tracking-tight">Cara Menghubungi Harry</h2>
+<p class="font-body-md text-body-md text-tertiary mt-3">
+          Pilih saluran yang paling sesuai berdasarkan urgensi pertanyaan dan kebutuhan teknis kamu.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1: Email -->
+<div class="bg-surface rounded-2xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container-low flex items-center justify-center text-primary shadow-sm mb-6">
+<span class="material-symbols-outlined text-[26px]">mail</span>
+</div>
+<span class="font-label-technical text-label-technical text-primary uppercase">Jalur Utama</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mt-1">Email Langsung</h3>
+<div class="mt-4 p-3 rounded-lg bg-surface-container-lowest shadow-sm flex items-center justify-between">
+<code class="font-label-md text-label-md text-primary font-mono select-all">contact@harrykusumo.com</code>
+<button class="font-caption text-caption text-tertiary hover:text-primary transition-colors cursor-pointer px-2 py-1 rounded bg-surface-container-low" onclick="navigator.clipboard.writeText('contact@harrykusumo.com'); this.innerText='Tersalin!';">
+                Salin
+              </button>
+</div>
+</div>
+<p class="font-caption text-caption text-tertiary mt-6 leading-relaxed">
+            Cocok untuk spesifikasi proyek, skema teknis, dan ulasan RFP arsitektur yang mendetail.
+          </p>
+</div>
+<!-- Card 2: Professional Networks -->
+<div class="bg-surface rounded-2xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container-low flex items-center justify-center text-primary shadow-sm mb-6">
+<span class="material-symbols-outlined text-[26px]">share</span>
+</div>
+<span class="font-label-technical text-label-technical text-primary uppercase">Kehadiran di Media Sosial</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mt-1">Jaringan Profesional</h3>
+<div class="mt-4 flex flex-col gap-2.5">
+<a class="px-3.5 py-2.5 rounded-lg bg-surface-container-lowest shadow-sm flex items-center justify-between hover:bg-surface-container-low transition-colors group" href="https://linkedin.com" rel="noopener noreferrer" target="_blank">
+<span class="font-label-md text-label-md text-on-surface font-medium flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+                  LinkedIn / Harry Kusumo
+                </span>
+<span class="material-symbols-outlined text-tertiary group-hover:text-primary text-[18px]">open_in_new</span>
+</a>
+<a class="px-3.5 py-2.5 rounded-lg bg-surface-container-lowest shadow-sm flex items-center justify-between hover:bg-surface-container-low transition-colors group" href="https://instagram.com" rel="noopener noreferrer" target="_blank">
+<span class="font-label-md text-label-md text-on-surface font-medium flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+                  Instagram / @harrykusumo.av
+                </span>
+<span class="material-symbols-outlined text-tertiary group-hover:text-primary text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+<p class="font-caption text-caption text-tertiary mt-6 leading-relaxed">
+            Terhubung untuk diskusi AV berkelanjutan, kesan unboxing, dan pembaruan acara industri.
+          </p>
+</div>
+<!-- Card 3: Lab Inquiries -->
+<div class="bg-surface rounded-2xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container-low flex items-center justify-center text-primary shadow-sm mb-6">
+<span class="material-symbols-outlined text-[26px]">science</span>
+</div>
+<span class="font-label-technical text-label-technical text-primary uppercase">Bench &amp; Diagnostik</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mt-1">Lab &amp; Pertanyaan Pengujian</h3>
+<div class="mt-4 p-3 rounded-lg bg-surface-container-lowest shadow-sm flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface font-medium">Meja Uji Fisik</span>
+<a class="inline-flex items-center gap-1 font-label-technical text-label-technical text-primary font-bold hover:underline" data-path="products" href="products.html">
+                BUKA LAB /lab →
+              </a>
+</div>
+</div>
+<p class="font-caption text-caption text-tertiary mt-6 leading-relaxed">
+            Benchmarking perangkat keras, analisis paket latensi, dan evaluasi rangkaian mikrofon akustik.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Start a Conversation CTA Section -->
+<section class="w-full bg-surface-container-low py-20">
+<div class="max-w-5xl mx-auto px-6 lg:px-12">
+<div class="rounded-3xl bg-surface-container-lowest p-10 lg:p-14 text-center shadow-xl relative overflow-hidden">
+<div class="absolute -top-12 -right-12 w-48 h-48 bg-primary/5 rounded-full pointer-events-none blur-2xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 bg-secondary-container/10 rounded-full pointer-events-none blur-2xl"></div>
+<span class="inline-block px-3 py-1 rounded-full bg-surface-container-low text-primary font-label-technical text-label-technical uppercase tracking-wider mb-4">
+          Kolaborasi di Atas Segalanya
+        </span>
+<h2 class="font-headline-lg text-headline-md lg:text-headline-lg text-on-surface font-extrabold tracking-tight max-w-xl mx-auto">
+          Ada yang menarik untuk didiskusikan?
+        </h2>
+<p class="font-body-lg text-body-lg text-tertiary mt-4 max-w-lg mx-auto leading-relaxed">
+          Teknologi selalu lebih seru saat kita bisa membicarakannya. Yuk, tukar pikiran, selesaikan masalah edge case, dan tingkatkan standar rapat hybrid bersama.
+        </p>
+<div class="mt-8 flex justify-center">
+<button class="inline-flex items-center justify-center gap-2.5 px-8 h-12 rounded-lg bg-primary text-on-primary font-label-md text-label-md font-semibold hover:bg-primary-container shadow-md hover:shadow-lg transition-all cursor-pointer" onclick="document.getElementById('form-container').scrollIntoView({behavior: 'smooth'})">
+<span>Mulai Percakapan</span>
+<span class="material-symbols-outlined text-[20px]">arrow_upward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Complementary Exploration Navigation Strip -->
+<section class="w-full bg-surface py-12">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="flex flex-col md:flex-row items-center justify-between gap-6 p-6 rounded-2xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-xl bg-surface-container-low flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">explore</span>
+</div>
+<div>
+<span class="font-label-technical text-label-technical text-tertiary uppercase">Selami Lebih Dalam</span>
+<h4 class="font-label-md text-label-md text-on-surface font-bold">Ingin eksplorasi dulu sebelum menghubungi?</h4>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-3">
+<a class="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-lg bg-surface text-on-surface font-label-md text-label-md hover:bg-surface-container hover:text-primary transition-colors" data-path="aver" href="aver.html">
+<span>Detail Produk Ikhtisar AVer</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+<a class="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-lg bg-surface text-on-surface font-label-md text-label-md hover:bg-surface-container hover:text-primary transition-colors" data-path="explore-aver-products" href="products.html">
+<span>Lihat Produk yang Telah Diuji</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+<a class="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-lg bg-surface text-on-surface font-label-md text-label-md hover:bg-surface-container hover:text-primary transition-colors" data-path="products" href="products.html">
+<span>Baca Hasil Benchmark Lab</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-[#123047] text-[#FFFFFF] border-t border-outline-variant/15"><div class="max-w-7xl mx-auto px-6 lg:px-12 py-16"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 lg:gap-8 pb-12 border-b border-white/10"><div class="lg:col-span-2 flex flex-col gap-4"><div class="flex items-center gap-3"><div class="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center border border-white/15"><span class="font-headline-sm text-headline-sm text-white font-bold">HK</span></div><div class="flex flex-col"><span class="font-label-md text-label-md font-bold text-white tracking-tight">Harry Kusumo</span><span class="font-caption text-caption text-white/60">Platform Teknis Pribadi</span></div></div><p class="font-body-sm text-body-sm text-white/70 max-w-sm leading-relaxed">Arsitek sistem audiovisual, evaluator perangkat keras, dan pencerita teknologi yang membedah ekosistem kolaborasi dan infrastruktur komunikasi terpadu.</p><div class="flex items-center gap-2 mt-2"><span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span><span class="font-caption text-caption text-white/70">Riset Independen &amp; Rekayasa Lapangan</span></div></div><div class="flex flex-col gap-3"><span class="font-label-technical text-label-technical uppercase tracking-wider text-secondary-container">Ekosistem AVer</span><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="aver" href="aver.html">Ikhtisar Platform</a><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="collaboration" href="collaboration.html">Ruang Rapat</a><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="professional-av" href="aver_solutions.html">Pro AV &amp; Streaming</a><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="education" href="aver_solutions.html">Solusi Pendidikan</a><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="specialized" href="aver_solutions.html">AV Khusus</a><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="explore-aver-products" href="products.html">Indeks Produk</a></div><div class="flex flex-col gap-3"><span class="font-label-technical text-label-technical uppercase tracking-wider text-secondary-container">Teknologi</span><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="technology" href="index.html#core-tech">AV-over-IP</a><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="technology" href="index.html#core-tech">NDI &amp; Dante Frameworks</a><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="technology" href="index.html#core-tech">AI Pelacakan Optik</a><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="technology" href="index.html#core-tech">Isolasi Gema Akustik</a></div><div class="flex flex-col gap-3"><span class="font-label-technical text-label-technical uppercase tracking-wider text-secondary-container">Inovasi</span><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="products" href="products.html">Products</a><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="projects" href="index.html#projects">Deployment Enterprise</a><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="insights" href="insights.html">Whitepaper &amp; Catatan</a><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="projects" href="index.html#projects">Cetak Biru Rig Audio</a></div><div class="flex flex-col gap-3"><span class="font-label-technical text-label-technical uppercase tracking-wider text-secondary-container">Terhubung</span><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="about" href="about.html">Tentang Harry</a><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="contact" href="contact.html">Konsultasi Teknis</a><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="contact" href="contact.html">Keynote &amp; Workshop</a><a class="font-body-sm text-body-sm text-white/80 hover:text-secondary-fixed-dim transition-colors" data-path="contact" href="contact.html">Pertanyaan Pers</a></div></div><div class="pt-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4"><p class="font-caption text-caption text-white/60 leading-relaxed max-w-2xl">Pemberitahuan Hukum: Ini adalah portofolio teknologi pribadi, repositori benchmark, dan platform edukasi milik Harry Kusumo. Situs ini dioperasikan secara independen dan tidak mewakili kehadiran web resmi perusahaan AVer Information Inc. Semua nama produk, merek dagang, dan merek dagang terdaftar adalah milik pemilik masing-masing.</p><span class="font-caption text-caption text-white/50 whitespace-nowrap">© 2024 Harry Kusumo. All rights reserved.</span></div></div></footer></body></html>

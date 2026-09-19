@@ -1,0 +1,52 @@
+{
+  "id": "cam570",
+  "name": "AVer CAM570",
+  "subtitle": "Dual 4K Audio Tracking Camera untuk Ruang Rapat Menengah & Besar",
+  "sku": "CAM570-4K",
+  "series": "AVer Enterprise Series",
+  "capacity": "8 – 24 Orang",
+  "zoom": "36X Zoom",
+  "audioRange": "Radius 10m",
+  "status": "Unit Demo Ready",
+  "guarantee": "Garansi Resmi 3 Tahun",
+  "images": [
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuBsIwdAQi2Oo0hQIivhIyKWl2NV7oR35gtFUwJ4UFE6hZ2EHayHHV1R-Zh4A5QH_hFaL-APFbjAJiLnLDk7t9uFrUOXUhAIAKT34bQTJc0yVj0MItQXvkgEBQVtqZ7p0evixx5vq5E6yyyY0xh2_cefvIfz9sGc4JV3X7gVtygHUKGJ7unZ6_ngn81j_T3AaznDu_UjYANHeQGK7_Xjj5FE5MkFoGYXxlEC0ZIHcXOGUXUnVNOHGvJT",
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuA29V6310YZ2fMJIqeE2DcdDhUlSreS2abEm2j6Wxp4yX-3NSklvzm2f7LSv7kn0ESSI4hlktw85TVKGG5KESLA8RA0-iiAgOkHCbN8QtFMc8kfATqyayXjmwfmdQKvoBqWP3kbuB2ZUVolOaA-mivjzdBwO5ib9DZPYWEIuB-Yf3J2DiZohv3Q1hyC8bODplcMkitOBmYgNO4h6YAYqHdPoZnizUpPxO3TMSjIW1C1W-F-aUNgXmvr",
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuBYyAn7kmoe6hAySVDcILlbrQZpRsXghpKci-M-c73mAXSBP-1lwEdJyYtnZ-YhHXoYgM4MJYjJQTjsvz6Fjs3rX9R_RSafVwtU8iJRgTlBR4J8YtLI7nONRZxZgWOBuxwwfQBQsrrX2SIao8Jew5Zn3MT83jyBjzo_eF1LE39YcqChrgWRZu7Rd96GfU5Vi3DM1MQWU2WgqQtFRGf7stVMrFpVqJXMKXnt8L-SUuiqfrz0V9-I4xHr"
+  ],
+  "specifications": {
+    "camera": {
+      "title": "Dual Camera",
+      "icon": "videocam",
+      "ptzLens": {
+        "title": "PTZ Optical Zoom Lens",
+        "items": [
+          { "label": "Image Sensor", "value": "1/2.8\" 4K Sony Exmor CMOS" },
+          { "label": "Frame Rates", "value": "(16:9) 4K 30fps, 1920x1080, 1600x900 at 60/30/15fps" },
+          { "label": "36X Zoom*", "value": "12X Optical Zoom Lossless + 3X Digital Zoom" },
+          { "label": "Viewing Angles (FoV)", "value": "DFOV 90°, HFOV 78°, VFOV 50°" }
+        ]
+      },
+      "aiLens": {
+        "title": "Secondary Fixed Lens (AI Lens)",
+        "items": [
+          { "label": "Image Sensor", "value": "1/2.5\" 4K Sony Exmor CMOS" },
+          { "label": "Wide Field of View (FoV)", "value": "DFOV 95°, HFOV 82°, VFOV 52°" }
+        ]
+      }
+    },
+    "features": [
+      { "name": "SmartSpeaker Audio Tracking", "desc": "Melacak suara manusia secara otomatis dan memfokuskan kamera pada pembicara aktif." },
+      { "name": "Dynamic Detection", "desc": "Lensa AI sekunder mendeteksi seluruh peserta rapat." },
+      { "name": "Simultaneous 3-Way Output", "desc": "Mentransfer sinyal video melalui USB, HDMI, dan IP Streaming bersamaan." },
+      { "name": "Smart Gallery", "desc": "Pemotongan otomatis hingga 20 tampilan individual." }
+    ],
+    "connectivity": [
+      { "label": "USB Connector", "value": "USB Type-B 3.1 (compatible USB 2.0)" },
+      { "label": "Power Supply", "value": "12V / 2A DC jack & PoE+ 802.3at" },
+      { "label": "RS-232 Control", "value": "Mini DIN 9 pin (VISCA in/out)" },
+      { "label": "Network IP", "value": "RJ-45 (RTSP / RTMP / VISCA over IP)" },
+      { "label": "HDMI Output", "value": "HDMI 1.3 output (up to 1080p 60fps)" }
+    ]
+  }
+}
