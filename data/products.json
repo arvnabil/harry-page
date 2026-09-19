@@ -1,0 +1,238 @@
+[
+  {
+    "id": "cam570",
+    "name": "AVer CAM570",
+    "subtitle": "Dual 4K Audio Tracking Camera untuk Ruang Rapat Menengah & Besar",
+    "sku": "CAM570-4K",
+    "series": "AVer Enterprise Series",
+    "category": "Collaboration",
+    "categoryLabel": "01 Collaboration",
+    "capacity": "8 – 24 Orang",
+    "zoom": "36X Zoom",
+    "audioRange": "Radius 10m",
+    "status": "Unit Demo Ready",
+    "guarantee": "Garansi Resmi 3 Tahun",
+    "images": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBsIwdAQi2Oo0hQIivhIyKWl2NV7oR35gtFUwJ4UFE6hZ2EHayHHV1R-Zh4A5QH_hFaL-APFbjAJiLnLDk7t9uFrUOXUhAIAKT34bQTJc0yVj0MItQXvkgEBQVtqZ7p0evixx5vq5E6yyyY0xh2_cefvIfz9sGc4JV3X7gVtygHUKGJ7unZ6_ngn81j_T3AaznDu_UjYANHeQGK7_Xjj5FE5MkFoGYXxlEC0ZIHcXOGUXUnVNOHGvJT",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuA29V6310YZ2fMJIqeE2DcdDhUlSreS2abEm2j6Wxp4yX-3NSklvzm2f7LSv7kn0ESSI4hlktw85TVKGG5KESLA8RA0-iiAgOkHCbN8QtFMc8kfATqyayXjmwfmdQKvoBqWP3kbuB2ZUVolOaA-mivjzdBwO5ib9DZPYWEIuB-Yf3J2DiZohv3Q1hyC8bODplcMkitOBmYgNO4h6YAYqHdPoZnizUpPxO3TMSjIW1C1W-F-aUNgXmvr",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBYyAn7kmoe6hAySVDcILlbrQZpRsXghpKci-M-c73mAXSBP-1lwEdJyYtnZ-YhHXoYgM4MJYjJQTjsvz6Fjs3rX9R_RSafVwtU8iJRgTlBR4J8YtLI7nONRZxZgWOBuxwwfQBQsrrX2SIao8Jew5Zn3MT83jyBjzo_eF1LE39YcqChrgWRZu7Rd96GfU5Vi3DM1MQWU2WgqQtFRGf7stVMrFpVqJXMKXnt8L-SUuiqfrz0V9-I4xHr"
+    ],
+    "specifications": {
+      "camera": {
+        "title": "Dual Camera",
+        "icon": "videocam",
+        "ptzLens": {
+          "title": "PTZ Optical Zoom Lens",
+          "items": [
+            { "label": "Image Sensor", "value": "1/2.8\" 4K Sony Exmor CMOS" },
+            { "label": "Frame Rates", "value": "(16:9) 4K 30fps, 1920x1080, 1600x900 at 60/30/15fps" },
+            { "label": "36X Zoom*", "value": "12X Optical Zoom Lossless + 3X Digital Zoom" },
+            { "label": "Viewing Angles (FoV)", "value": "DFOV 90°, HFOV 78°, VFOV 50°" }
+          ]
+        },
+        "aiLens": {
+          "title": "Secondary Fixed Lens (AI Lens)",
+          "items": [
+            { "label": "Image Sensor", "value": "1/2.5\" 4K Sony Exmor CMOS" },
+            { "label": "Wide Field of View (FoV)", "value": "DFOV 95°, HFOV 82°, VFOV 52°" }
+          ]
+        }
+      },
+      "features": [
+        { "name": "SmartSpeaker Audio Tracking", "desc": "Melacak suara manusia secara otomatis dan memfokuskan kamera pada pembicara aktif." },
+        { "name": "Dynamic Detection", "desc": "Lensa AI sekunder mendeteksi seluruh peserta rapat secara kontinu." },
+        { "name": "Simultaneous 3-Way Output", "desc": "Mentransfer sinyal video melalui USB, HDMI, dan IP Streaming bersamaan." },
+        { "name": "Smart Gallery", "desc": "Pemotongan otomatis hingga 20 tampilan individual peserta rapat." }
+      ],
+      "connectivity": [
+        { "label": "USB Connector", "value": "USB Type-B 3.1 (compatible USB 2.0)" },
+        { "label": "Power Supply", "value": "12V / 2A DC jack & PoE+ 802.3at" },
+        { "label": "RS-232 Control", "value": "Mini DIN 9 pin (VISCA in/out)" },
+        { "label": "Network IP", "value": "RJ-45 (RTSP / RTMP / VISCA over IP)" },
+        { "label": "HDMI Output", "value": "HDMI 1.3 output (up to 1080p 60fps)" }
+      ]
+    }
+  },
+  {
+    "id": "cam550",
+    "name": "AVer CAM550",
+    "subtitle": "Dual Lens 4K PTZ Camera dengan Smart Framing & AI Gesture Control",
+    "sku": "CAM550-4K",
+    "series": "AVer Enterprise Series",
+    "category": "Collaboration",
+    "categoryLabel": "01 Collaboration",
+    "capacity": "6 – 16 Orang",
+    "zoom": "24X Zoom",
+    "audioRange": "Integrasi Mic Ceiling",
+    "status": "Unit Demo Ready",
+    "guarantee": "Garansi Resmi 3 Tahun",
+    "images": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBDqsFTOChG85qMeV-RqwNLPzSpBPUGLw26nHXx9x55ksEpvrGLI9DwARvw-G3gruSl1Yds8ZZwVNxgbAGmDN0o4BM_Rx-ud_7C2l9IjY40MbNDRpKHi6DJMgbtNTV-Sjnskfjullv-pkfjKZSH8LGsT0VHHg8bUnxmGdKdHdDrvpeLCdbt_lYgkAhGLyDgJuKYVcn1P7vgttDU2my0UeXJFY_FFqXabaJ111rlXceUtoPGopPagjuS"
+    ],
+    "specifications": {
+      "camera": {
+        "title": "Dual Lens 4K PTZ",
+        "icon": "videocam",
+        "ptzLens": {
+          "title": "Main PTZ Lens",
+          "items": [
+            { "label": "Image Sensor", "value": "4K Sony Exmor CMOS" },
+            { "label": "Zoom Ratio", "value": "24X Zoom (12X Optical + 2X Digital)" }
+          ]
+        }
+      },
+      "features": [
+        { "name": "AI Gesture Control", "desc": "Kendalikan fungsi kamera dengan isyarat tangan tanpa remote." },
+        { "name": "Smart Gallery Framing", "desc": "Fitur potongan gambar individu otomatis untuk efisiensi rapat." }
+      ],
+      "connectivity": [
+        { "label": "USB Output", "value": "USB 3.1 Gen 1 Type B" },
+        { "label": "HDMI & IP", "value": "HDMI 1.3 / IP Streaming RTSP" }
+      ]
+    }
+  },
+  {
+    "id": "cam520pro3",
+    "name": "AVer CAM520 Pro3",
+    "subtitle": "Kamera Konferensi Professional 36X Total Zoom dengan HDMI & Smart Framing",
+    "sku": "CAM520PRO3",
+    "series": "AVer Enterprise Series",
+    "category": "Collaboration",
+    "categoryLabel": "01 Collaboration",
+    "capacity": "10 – 30 Orang",
+    "zoom": "36X Zoom",
+    "audioRange": "Eksternal Audio Support",
+    "status": "Unit Demo Ready",
+    "guarantee": "Garansi Resmi 3 Tahun",
+    "images": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBF7sM4c2VD7Nw-A0pVCWxoopxAn3D0YFF1XAfxrDEthISXNeOe42wUB7PW4_edO-Al9WAQopmJWYJ0n6ch7rc9PF6BieyqgXs7RLAkmEDab3kybSjfBQfOS1jkFukbxb9k004BFrj0cYubtp00MES3MC42np6wfpi-A_Cr54aAO7Vp5dLC48AvcH_kNfPUsej1PPn3PlKPkzqgcHMkQ-gchaGVaSz4gtQ3jQedCv71kE4mpNOM4atK"
+    ],
+    "specifications": {
+      "camera": {
+        "title": "Single 4K PTZ Lens",
+        "icon": "videocam",
+        "ptzLens": {
+          "title": "High Precision Lens",
+          "items": [
+            { "label": "Optical Zoom", "value": "12X Optical Zoom (36X Total)" },
+            { "label": "Resolution", "value": "Full HD 1080p 60fps / 4K 30fps" }
+          ]
+        }
+      },
+      "features": [
+        { "name": "SmartFrame", "desc": "Framing otomatis mendeteksi wajah seluruh peserta di dalam ruangan." }
+      ],
+      "connectivity": [
+        { "label": "Ports", "value": "USB 3.1, HDMI, LAN PoE+" }
+      ]
+    }
+  },
+  {
+    "id": "vb342pro",
+    "name": "AVer VB342 Pro",
+    "subtitle": "All-in-One 4K PTZ Video Bar dengan Mic Beamforming & Speaker Jernih",
+    "sku": "VB342PRO",
+    "series": "AVer Huddle & All-in-One Series",
+    "category": "Collaboration",
+    "categoryLabel": "01 Collaboration",
+    "capacity": "4 – 10 Orang",
+    "zoom": "15X Zoom",
+    "audioRange": "Radius 8m",
+    "status": "Unit Demo Ready",
+    "guarantee": "Garansi Resmi 3 Tahun",
+    "images": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDUFVgriMbc3910aSOW8uvU5w87eH8PookNRTTJOvwD8LGKgb4CGvpcSgdbwJuma6nbHNRE7jZG6VOpiVGYzbPfgmi0Zc5ZdxahQVl1tdmGXaM8dX9TrE3gZq_M3uB0Cf6WT8x3hPsYxrTq-URF7Ndb61Q5Sie860nG27rVYPCotzoTxlM0iQvQGcC2oMBfetXvDIzKVp4KbXBAUw9JMgIVPNW-kl_q4lzIfPdgDO_YDN3P3LNy6K4W"
+    ],
+    "specifications": {
+      "camera": {
+        "title": "Integrated All-in-One Bar",
+        "icon": "videocam",
+        "ptzLens": {
+          "title": "4K Motorized PTZ",
+          "items": [
+            { "label": "FOV", "value": "DFOV 92° / HFOV 84°" },
+            { "label": "Audio", "value": "Array 10-beamforming microphone" }
+          ]
+        }
+      },
+      "features": [
+        { "name": "Audio Fence", "desc": "Isolasi suara di luar jangkauan pandang kamera rapat." }
+      ],
+      "connectivity": [
+        { "label": "Interface", "value": "USB 3.1 Type C, Audio Out, HDMI" }
+      ]
+    }
+  },
+  {
+    "id": "tr333v2",
+    "name": "AVer TR333V2",
+    "subtitle": "4K AI Auto Tracking Camera 30X Optical Zoom untuk Broadcasting & Education",
+    "sku": "TR333V2-4K",
+    "series": "AVer Pro AV Series",
+    "category": "Pro AV",
+    "categoryLabel": "02 Pro AV",
+    "capacity": "Auditorium / Studio",
+    "zoom": "30X Zoom",
+    "audioRange": "Broadcast Grade Line-In",
+    "status": "Unit Demo Ready",
+    "guarantee": "Garansi Resmi 3 Tahun",
+    "images": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuA7SO5xW-bHlaURB0MWh6PdlvGAqYjaSUw5c8U51OVOCofYqQ5SkJkyzwona0cQtjwBR7MC2WFddyuXV1XjirOqc0SNoxfif1BEcvIlBE1HT8tBSLCvXpdTILAW-VfBLXWFzBNfKEdE3F1i8Sp0XlOzZXHm_yqwHcKXOAvYXbXYkbcsoWgZ3nAEf-8FOXCV86w-0mTzIx1_3y1LWDbGTfRnz6VtQHB0AXL7LGBXwqRxafEDQVYMFByo"
+    ],
+    "specifications": {
+      "camera": {
+        "title": "Auto Tracking PTZ Lens",
+        "icon": "videocam",
+        "ptzLens": {
+          "title": "Broadcasting Lens",
+          "items": [
+            { "label": "Zoom", "value": "30X Optical Zoom" },
+            { "label": "Tracking Mode", "value": "Presenter Mode, Zone Mode, Segment Mode" }
+          ]
+        }
+      },
+      "features": [
+        { "name": "Human Detection AI", "desc": "Pelacakan presenter tingkat tinggi tanpa butuh perangkat wearable tambahan." }
+      ],
+      "connectivity": [
+        { "label": "Broadcast Outputs", "value": "3G-SDI, HDMI, USB, NDI|HX, IP RTSP" }
+      ]
+    }
+  },
+  {
+    "id": "m15w",
+    "name": "AVer M15W",
+    "subtitle": "Kamera Dokumen Wireless Mechanical Arm 4K Visualizer untuk Edukasi Modern",
+    "sku": "M15W-VISUALIZER",
+    "series": "AVer Education Series",
+    "category": "Education",
+    "categoryLabel": "03 Education",
+    "capacity": "Ruang Kelas & Lab",
+    "zoom": "23X Digital Zoom",
+    "audioRange": "Built-in Mic",
+    "status": "Unit Demo Ready",
+    "guarantee": "Garansi Resmi 3 Tahun",
+    "images": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAg0p1JUBKiFYLsLnksDXlC4ZaihTOz8M_bVs9rzAWoAB2khyp8UiINAcEZXobEw5-DPGp3lt0iZNFADZmVZMzYtJiVrxWwbd8ECQzm_pemUi8UxMPbDjZDye4gLKZ19wijrrlTQ-ox5g9-qZHFi7_ceu_Dmcio2qtCdW8NVBzTDlhmYUeQLc5zPPhJMj4eRxeWpTA3sCrMJ1kGPzSI0QGM33mdbD5X8XKFV9acuzPbzUtxsojKxUwM"
+    ],
+    "specifications": {
+      "camera": {
+        "title": "Wireless Visualizer",
+        "icon": "videocam",
+        "ptzLens": {
+          "title": "4K Camera Head",
+          "items": [
+            { "label": "Shooting Area", "value": "Lebih besar dari A3 size" },
+            { "label": "Battery Life", "value": "Hingga 9 jam penggunaan nirkabel Wi-Fi" }
+          ]
+        }
+      },
+      "features": [
+        { "name": "Wireless Connectivity", "desc": "Hubungkan langsung ke display kelas via Wi-Fi 5GHz." }
+      ],
+      "connectivity": [
+        { "label": "Interfaces", "value": "HDMI, USB, Wi-Fi Dual Band" }
+      ]
+    }
+  }
+]
