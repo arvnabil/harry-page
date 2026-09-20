@@ -65,7 +65,7 @@ Halaman deep-dive rekayasa teknis dan arsitektur produk AVer.
 ### Pemetaan Section:
 1. **Header & Breadcrumb Bar**: Navigasi Beranda > AVer > Solusi AVer.
 2. **Page Hero Header**: *"Teknologi AVer, Dijelaskan."* — Eksplorasi mekanika optik & algoritma AI.
-3. **Matriks Subsistem (6 Kartu Kategori Solusi)**:
+3. **Matriks Subsistem (Pilar Solusi Kolaborasi)**:
    - 01 / KOLABORASI: Kolaborasi Video (Dual 4K, ePTZ).
    - 02 / SENSING: Pelacakan Otomatis AI (Neural Engine).
    - 03 / OPTOK: Kamera PTZ (30X Optical Zoom).
@@ -77,8 +77,8 @@ Halaman deep-dive rekayasa teknis dan arsitektur produk AVer.
    - SVG Conduit Visualizer (Domain Capture, Edge Compute, Enterprise Network, Cloud).
 5. **Tolak Ukur Rekayasa (Benchmark Matrix)**:
    - Tabel Perbandingan Metrik Optik & Algoritma (Standar AV Lama vs. Arsitektur AVer Generasi Baru).
-6. **Perspektif Rekayasa Harry Kusumo & Lab CTA**:
-   - "Fidelity is not an accident..." — Kutipan & foto pengujian Harry's Lab.
+6. **Perspektif Rekayasa & Kataloh CTA**:
+   - "Akurasi tinggi bukanlah kebetulan..." — Kutipan & penjelas pengujian independen.
 7. **CTA Navigasi Direktori Produk**.
 8. **Footer Dinamis**.
 
