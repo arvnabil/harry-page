@@ -34,15 +34,13 @@ Halaman utama yang menyajikan pengenalan personal brand Harry Kusumo, filosofi A
    - *AI Auto Tracking — Di Balik Lensa*: Alur pemrosesan 5 tahap (Penangkapan, Ekstraksi Fitur, Pemodelan Neural, Kalkulasi Motor, Output Stream).
 7. **Section Proyek & Implementasi Nyata (`#projects`)**:
    - Kartu Studi Kasus Implementasi AV di Perusahaan & Universitas.
-8. **Section Harry's Lab (Laboratorium Pengujian) (`#labs`)**:
-   - Pengujian Independen & Hasil Benchmark Hardware AVer.
-9. **Section Wawasan & Artikel AV (`#insights`)**:
+8. **Section Wawasan & Artikel AV (`#insights`)**:
    - Artikel teknis dan panduan integrasi terbaru.
-10. **Section Biografi & Keahlian Harry (`#about-harry`)**:
-    - Profil mendalam, sertifikasi (AVer, Zoom, Teams), & matriks keahlian teknis.
-11. **Section Form Kontak & CTA (`#contact-cta`)**:
+9. **Section Biografi & Keahlian Harry (`#about-harry`)**:
+   - Profil mendalam, sertifikasi (AVer, Zoom, Teams), & matriks keahlian teknis.
+10. **Section Form Kontak & CTA (`#contact-cta`)**:
     - Banner ajakan berdiskusi dan konsultasi AV.
-12. **Footer Dinamis (`#site-footer`)**.
+11. **Footer Dinamis (`#site-footer`)**.
 
 ---
 
